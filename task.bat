@@ -24,8 +24,6 @@ del %ZIP_FILE%
 :: Add changes to Git
 git add .
 git commit -m "%CURRENT_DATETIME%"
-
-:: Push changes to origin
 git push origin main
 
 echo Process Completed!
