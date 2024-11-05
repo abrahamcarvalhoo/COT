@@ -27,4 +27,4 @@ git commit -m "%CURRENT_DATETIME%"
 git push origin main
 
 echo Process Completed!
-exit
+@REM exit
