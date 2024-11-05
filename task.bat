@@ -1,4 +1,7 @@
 @echo off
+:: Set the working directory
+cd /d "C:\Users\abrah\cot"
+
 :: Get the system datetime
 set CURRENT_YEAR=%DATE:~6,4%
 set CURRENT_DATETIME=%TIME:~0,5% %DATE:~0,2%/%DATE:~3,2%/%DATE:~6,4%
@@ -27,4 +30,5 @@ git commit -m "%CURRENT_DATETIME%"
 git push origin main
 
 echo Process Completed!
+pause
 @REM exit
